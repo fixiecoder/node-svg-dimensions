@@ -1,0 +1,32 @@
+{
+  "name": "svg-dimensions",
+  "version": "1.0.0",
+  "description": "Returns the height and width attributes of an svg image.",
+  "main": "svg-dimensions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node svg-dimensions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fixiecoder/node-svg-dimensions.git"
+  },
+  "keywords": [
+    "svg",
+    "dimensions",
+    "height",
+    "width",
+    "size",
+    "image",
+    "xml"
+  ],
+  "author": "fixiecoder (Colin Adams)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fixiecoder/node-svg-dimensions/issues"
+  },
+  "homepage": "https://github.com/fixiecoder/node-svg-dimensions",
+  "dependencies": {
+    "xml2js": "^0.4.5"
+  }
+}
