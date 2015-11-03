@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Returns the height and width attributes of an svg image.",
   "main": "svg-dimensions.js",
+  "bin": "bin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node svg-dimensions.js"
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/fixiecoder/node-svg-dimensions",
   "dependencies": {
+    "minimist": "^1.2.0",
     "xml2js": "^0.4.5"
   }
 }
